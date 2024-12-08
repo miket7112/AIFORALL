@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI4ALL - AI Tutorials and Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        .tutorial-section {
+            margin-top: 30px;
+        }
+        .tutorial {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .tutorial h2 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Welcome to AI4ALL!</h1>
+        <p>This is your go-to place for AI tutorials and resources. Learn about the fundamentals of AI, machine learning, deep learning, and more.</p>
+        <a href="#tutorials" class="btn">Start Learning</a>
+    </div>
+
+    <div class="content tutorial-section" id="tutorials">
+        <h2>AI Tutorials</h2>
+
+        <div class="tutorial">
+            <h3>1. Introduction to AI</h3>
+            <p>AI is transforming how we work and live. In this tutorial, you'll get an introduction to what AI is, how it works, and its applications.</p>
+        </div>
+
+        <div class="tutorial">
+            <h3>2. Basics of Machine Learning</h3>
+            <p>Machine learning (ML) is a subset of AI that focuses on building systems that learn from data. Learn how ML models are trained and applied.</p>
+        </div>
+
+        <div class="tutorial">
+            <h3>3. Deep Learning Explained</h3>
+            <p>Deep learning is a subset of machine learning using neural networks. This tutorial explains how deep learning works and its applications.</p>
+        </div>
+    </div>
+
+</body>
+</html>
