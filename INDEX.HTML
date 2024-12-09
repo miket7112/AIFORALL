@@ -10,23 +10,23 @@
         /* General Styles */
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
         }
 
         /* Header */
         header {
-            background: linear-gradient(135deg, #4A90E2, #8E44AD);
+            background: linear-gradient(135deg, #1e90ff, #6a5acd);
             color: white;
             text-align: center;
-            padding: 40px 10px;
+            padding: 40px 20px;
         }
         header h1 {
             margin: 0;
-            font-size: 3em;
-            letter-spacing: 2px;
+            font-size: 2.8em;
+            letter-spacing: 1px;
         }
         header p {
             margin-top: 10px;
@@ -34,7 +34,7 @@
             opacity: 0.9;
         }
 
-        /* Container */
+        /* Main Container */
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -47,12 +47,12 @@
             flex: 3;
             background-color: white;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
         .article {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .article h2 {
             color: #333;
@@ -64,21 +64,21 @@
         }
         .article img {
             width: 100%;
-            border-radius: 8px;
+            border-radius: 10px;
             margin: 10px 0;
         }
         .btn {
             display: inline-block;
-            background-color: #3498db;
+            background-color: #1e90ff;
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s ease;
         }
         .btn:hover {
-            background-color: #2980b9;
+            background-color: #4682b4;
         }
 
         /* Sidebar */
@@ -86,7 +86,7 @@
             flex: 1;
             background-color: white;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-left: 20px;
         }
@@ -103,7 +103,7 @@
         }
         .sidebar ul li a {
             text-decoration: none;
-            color: #3498db;
+            color: #1e90ff;
             font-weight: bold;
         }
         .sidebar ul li a:hover {
@@ -114,15 +114,15 @@
         .content {
             background: #f9f9fc;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
             margin: 20px;
         }
         .tutorial {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .tutorial h3 {
             font-size: 1.6em;
-            color: #3498db;
+            color: #1e90ff;
         }
         .tutorial p {
             line-height: 1.6;
@@ -130,7 +130,7 @@
         }
         .tutorial img {
             width: 100%;
-            border-radius: 8px;
+            border-radius: 10px;
             margin: 10px 0;
         }
 
@@ -140,7 +140,7 @@
             color: white;
             text-align: center;
             padding: 20px 10px;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         footer p {
             margin: 0;
@@ -161,31 +161,35 @@
 </head>
 <body>
 
+<!-- Header Section -->
 <header>
     <h1>AI4ALL</h1>
-    <p>Your Gateway to AI Knowledge</p>
+    <p>Your Gateway to AI Knowledge and Tutorials</p>
 </header>
 
+<!-- Main Content -->
 <div class="container">
-    <!-- Main Content -->
     <div class="main-content">
+        <!-- Article 1 -->
         <div class="article">
             <h2>Latest AI Trends in 2024</h2>
-            <img src="https://via.placeholder.com/800x400" alt="AI Trends">
+            <img src="https://via.placeholder.com/800x400?text=AI+Trends+2024" alt="AI Trends">
             <p>Discover the cutting-edge advancements in AI, from generative models like ChatGPT to breakthroughs in robotics and ethical AI practices.</p>
             <a href="trends2024.html" class="btn">Read More</a>
         </div>
         
+        <!-- Article 2 -->
         <div class="article">
             <h2>Machine Learning for Beginners</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Machine Learning">
+            <img src="https://via.placeholder.com/800x400?text=Machine+Learning" alt="Machine Learning">
             <p>Learn the basics of Machine Learning, how algorithms learn from data, and how you can start creating your own ML projects.</p>
             <a href="ml-beginners.html" class="btn">Read More</a>
         </div>
         
+        <!-- Article 3 -->
         <div class="article">
             <h2>Deep Learning Explained</h2>
-            <img src="https://via.placeholder.com/800x400" alt="Deep Learning">
+            <img src="https://via.placeholder.com/800x400?text=Deep+Learning" alt="Deep Learning">
             <p>Deep learning uses neural networks to solve complex problems. Discover how it works and its applications in AI.</p>
             <a href="deep-learning.html" class="btn">Read More</a>
         </div>
@@ -207,26 +211,27 @@
     <h2>AI Tutorials</h2>
     <div class="tutorial">
         <h3>1. Introduction to AI</h3>
-        <img src="https://via.placeholder.com/800x400" alt="Introduction to AI">
+        <img src="https://via.placeholder.com/800x400?text=Introduction+to+AI" alt="Introduction to AI">
         <p>What is AI? How does it work? This tutorial introduces AI fundamentals with real-world examples.</p>
         <a href="intro-to-ai.html" class="btn">Learn More</a>
     </div>
 
     <div class="tutorial">
         <h3>2. Basics of Machine Learning</h3>
-        <img src="https://via.placeholder.com/800x400" alt="Basics of Machine Learning">
+        <img src="https://via.placeholder.com/800x400?text=Basics+of+Machine+Learning" alt="Machine Learning Basics">
         <p>Learn how to train models, the difference between supervised and unsupervised learning, and practical ML applications.</p>
         <a href="ml-basics.html" class="btn">Learn More</a>
     </div>
 
     <div class="tutorial">
         <h3>3. Deep Learning Explained</h3>
-        <img src="https://via.placeholder.com/800x400" alt="Deep Learning Explained">
-        <p>Understand how neural networks mimic the human brain and solve complex problems in vision, speech, and more.</p>
+        <img src="https://via.placeholder.com/800x400?text=Deep+Learning+Explained" alt="Deep Learning Explained">
+        <p>Understand how neural networks mimic the human brain to solve complex problems in vision, speech, and more.</p>
         <a href="deep-learning-explained.html" class="btn">Learn More</a>
     </div>
 </div>
 
+<!-- Footer -->
 <footer>
     <p>&copy; 2024 AI4ALL | Empowering the Future with AI Knowledge</p>
 </footer>
