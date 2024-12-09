@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI4ALL - AI Tutorials and Resources</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         /* General Styles */
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             background-color: #f4f4f9;
             color: #333;
             margin: 0;
@@ -16,15 +18,20 @@
 
         /* Header */
         header {
-            background-color: #333;
+            background: linear-gradient(135deg, #4A90E2, #8E44AD);
             color: white;
             text-align: center;
-            padding: 20px 10px;
+            padding: 40px 10px;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 3em;
             letter-spacing: 2px;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            opacity: 0.9;
         }
 
         /* Container */
@@ -54,6 +61,11 @@
         .article p {
             line-height: 1.6;
             color: #555;
+        }
+        .article img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
         }
         .btn {
             display: inline-block;
@@ -100,6 +112,9 @@
 
         /* Tutorials Section */
         .content {
+            background: #f9f9fc;
+            padding: 20px;
+            border-radius: 8px;
             margin: 20px;
         }
         .tutorial {
@@ -113,14 +128,23 @@
             line-height: 1.6;
             color: #555;
         }
+        .tutorial img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
 
         /* Footer */
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px 10px;
             margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
         }
 
         /* Responsive Design */
@@ -138,7 +162,8 @@
 <body>
 
 <header>
-    <h1>AI4ALL - AI Tutorials and Resources</h1>
+    <h1>AI4ALL</h1>
+    <p>Your Gateway to AI Knowledge</p>
 </header>
 
 <div class="container">
@@ -146,18 +171,21 @@
     <div class="main-content">
         <div class="article">
             <h2>Latest AI Trends in 2024</h2>
+            <img src="https://via.placeholder.com/800x400" alt="AI Trends">
             <p>Discover the cutting-edge advancements in AI, from generative models like ChatGPT to breakthroughs in robotics and ethical AI practices.</p>
             <a href="trends2024.html" class="btn">Read More</a>
         </div>
         
         <div class="article">
             <h2>Machine Learning for Beginners</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Machine Learning">
             <p>Learn the basics of Machine Learning, how algorithms learn from data, and how you can start creating your own ML projects.</p>
             <a href="ml-beginners.html" class="btn">Read More</a>
         </div>
         
         <div class="article">
             <h2>Deep Learning Explained</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Deep Learning">
             <p>Deep learning uses neural networks to solve complex problems. Discover how it works and its applications in AI.</p>
             <a href="deep-learning.html" class="btn">Read More</a>
         </div>
@@ -179,18 +207,21 @@
     <h2>AI Tutorials</h2>
     <div class="tutorial">
         <h3>1. Introduction to AI</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Introduction to AI">
         <p>What is AI? How does it work? This tutorial introduces AI fundamentals with real-world examples.</p>
         <a href="intro-to-ai.html" class="btn">Learn More</a>
     </div>
 
     <div class="tutorial">
         <h3>2. Basics of Machine Learning</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Basics of Machine Learning">
         <p>Learn how to train models, the difference between supervised and unsupervised learning, and practical ML applications.</p>
         <a href="ml-basics.html" class="btn">Learn More</a>
     </div>
 
     <div class="tutorial">
         <h3>3. Deep Learning Explained</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Deep Learning Explained">
         <p>Understand how neural networks mimic the human brain and solve complex problems in vision, speech, and more.</p>
         <a href="deep-learning-explained.html" class="btn">Learn More</a>
     </div>
